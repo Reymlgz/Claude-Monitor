@@ -1,6 +1,16 @@
-# Claude Monitor
+<h1 align="center">Claude Monitor</h1>
+
+```text
+  ____ _                 _       __  __             _ _
+ / ___| | __ _ _   _  __| | ___ |  \/  | ___  _ __ (_) |_ ___  _ __
+| |   | |/ _` | | | |/ _` |/ _ \| |\/| |/ _ \| '_ \| | __/ _ \| '__|
+| |___| | (_| | |_| | (_| |  __/| |  | | (_) | | | | | || (_) | |
+ \____|_|\__,_|\__,_|\__,_|\___||_|  |_|\___/|_| |_|_|\__\___/|_|
+```
 
 **See everything Claude is running on your computer, how much CPU and memory it uses, and kill it with one key.**
+
+> **Works on macOS and Linux only.** Windows is not supported. Linux support is newer and less tested than macOS.
 
 ```text
 Claude Monitor
@@ -40,7 +50,7 @@ Any process started by one of these is included too, whatever its name.
 
 ## Install
 
-Requires Python 3.9 or newer. There are no other dependencies.
+Requires **macOS or Linux** and Python 3.9 or newer. There are no other dependencies. It does not run on Windows.
 
 ```sh
 git clone https://github.com/<you>/claudemonitor
