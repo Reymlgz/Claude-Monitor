@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "claudemonitor"
-version = "0.1.0"
-description = "See what Claude is running on your machine (CPU, memory) and kill it."
+version = "0.2.0"
+description = "See what Claude is running on your machine (CPU, memory), how many tokens it has used, and kill it."
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }
