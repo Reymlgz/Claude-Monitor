@@ -60,8 +60,8 @@ Any process started by one of these is included too, whatever its name.
 Requires **macOS or Linux** and Python 3.9 or newer. There are no other dependencies. It does not run on Windows.
 
 ```sh
-git clone https://github.com/<you>/claudemonitor
-cd claudemonitor
+git clone https://github.com/Reymlgz/Claude-Monitor.git
+cd Claude-Monitor
 ./install.sh
 ```
 
@@ -175,7 +175,7 @@ claudemonitor/
 
 ## Contributing
 
-Issues and pull requests are welcome. Please include your OS and the output of `claudemonitor --list` in bug reports, with anything private removed. Detection patterns live at the top of `claudemonitor/procs.py`, so new process names are usually a one-line fix.
+Issues and pull requests are welcome. Please include your OS and the output of `claudemonitor --list` in bug reports, with anything private removed. Its usage section lists your project folder names and how much you've used, so cut or rename those if they're private. Detection patterns live at the top of `claudemonitor/procs.py`, so new process names are usually a one-line fix.
 
 ## License
 
